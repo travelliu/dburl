@@ -108,6 +108,7 @@ additional aliases, and the related Go driver:
 | Database             | Scheme / Tag    | Scheme Aliases                                  | Driver Package / Notes                                                      |
 |----------------------|-----------------|-------------------------------------------------|-----------------------------------------------------------------------------|
 | PostgreSQL           | `postgres`      | `pg`, `pgsql`, `postgresql`                     | [github.com/lib/pq][d-postgres]                                             |
+| MogDB                | `mogdb`         | `mg`, `mogdb`, `mgsql`, `gsql`                  | [openGauss-connector-go-pq][d-mogdb]                                             |
 | MySQL                | `mysql`         | `my`, `maria`, `aurora`, `mariadb`, `percona`   | [github.com/go-sql-driver/mysql][d-mysql]                                   |
 | Microsoft SQL Server | `sqlserver`     | `ms`, `mssql`, `azuresql`                       | [github.com/microsoft/go-mssqldb][d-sqlserver]                              |
 | Oracle Database      | `oracle`        | `or`, `ora`, `oci`, `oci8`, `odpi`, `odpi-c`    | [github.com/sijms/go-ora/v2][d-oracle]                                      |
@@ -187,6 +188,7 @@ additional aliases, and the related Go driver:
 [d-ots]: https://github.com/aliyun/aliyun-tablestore-go-sql-driver
 [d-pgx]: https://github.com/jackc/pgx
 [d-postgres]: https://github.com/lib/pq
+[d-mogdb]: https://gitee.com/opengauss/openGauss-connector-go-pq
 [d-presto]: https://github.com/prestodb/presto-go-client
 [d-ql]: https://gitlab.com/cznic/ql
 [d-sapase]: https://github.com/thda/tds
